@@ -1,0 +1,18 @@
+
+.board{
+    border:1px black;
+    max-width: 300px !important;
+}
+
+button[type=submit]{
+    background-color: #0d47a1;
+}
+;
+
+.wrap{
+    height: 100vh;
+}
+
+.col-sm-6{
+    width:85% !important;
+}
