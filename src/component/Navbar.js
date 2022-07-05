@@ -14,7 +14,7 @@ const Navbar = () => {
     const localStorageToken = localStorage.getItem("token");
     setTokken(localStorageToken)
     
-  }, [localStorage.getItem("token")])
+  }, [])
 
   return (
   <>
