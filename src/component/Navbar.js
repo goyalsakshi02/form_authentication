@@ -14,20 +14,21 @@ const Navbar = () => {
     const localStorageToken = localStorage.getItem("token");
     setTokken(localStorageToken)
     
-    console.log('In nav', localStorage.getItem("token"))
   }, [localStorage.getItem("token")])
 
   return (
   <>
   <nav>
-  {tokken ?
-       
+    {tokken ?
      <div>
       <Link to="/home">home</Link>
      </div>
      :
-      <></>
-  }
+      <Link to="/"></Link>
+
+    }
+   
+  
    </nav>
    <Outlet />
    </>

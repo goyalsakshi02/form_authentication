@@ -3,10 +3,10 @@ import {useNavigate } from "react-router-dom";
 
 const Home = () => {
   const [token, setToken] = useState()
-  const[user, setUser] = useState
+  const[user, setUser] = useState()
   useEffect(() => {
     setToken(localStorage.getItem('token'))
-    setToken(localStorage.getItem(JSON.parse('token')))
+    setUser(localStorage.getItem(('userInformation')))
   }, [localStorage.getItem('token')])
 
   console.log("i am in home page")

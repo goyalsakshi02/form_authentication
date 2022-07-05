@@ -7,6 +7,8 @@ import Signup from "./component/Signup";
 import Home from "./component/Home";
 
 function App() {
+
+  console.log("Form")
   
   const navigate = useNavigate()
   const [tokken, setTokken] = useState(localStorage.getItem("token"))
