@@ -17,7 +17,7 @@ const Home = () => {
     localStorage.removeItem("userInformation")
       setToken(null)
     if(token === null){
-      navigate('/signup')
+      navigate('/')
     }else{
       navigate('/home')
     }

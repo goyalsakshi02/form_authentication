@@ -33,9 +33,9 @@ function App() {
         <Routes>
           {!tokken ? (
             <>
-              <Route path={"/login"} element={<Log />}></Route>
+              <Route path={"/"} element={<Log />}></Route>
               <Route path={"/signup"} element={<Signup />}></Route>
-              <Route path={"*"} element={<Navigate replace to='/login'/>}/>
+              {/* <Route path={"*"} element={<Navigate replace to='/login'/>}/> */}
             </>
           ) : (
             <Route path={"/home"} element={<Home />}></Route>
