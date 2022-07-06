@@ -7,7 +7,7 @@ const Home = () => {
   useEffect(() => {
     setToken(localStorage.getItem('token'))
     setUser(localStorage.getItem(('userInformation')))
-  }, [localStorage.getItem('token')])
+  }, [])
 
   console.log("i am in home page")
   const navigate = useNavigate()

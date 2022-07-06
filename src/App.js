@@ -33,11 +33,11 @@ function App() {
         <Routes>
           {!tokken ? (
             <>
-              <Route path={"/"} element={<Log />}></Route>
-              <Route path={"/signup"} element={<Signup />}></Route>
+              <Route path={process.env.PUBLIC_URL + "/"} element={<Log />}></Route>
+              <Route path={process.env.PUBLIC_URL + "/signup"} element={<Signup />}></Route>
             </>
           ) : (
-            <Route path={"/home"} element={<Home />}></Route>
+            <Route path={process.env.PUBLIC_URL + "/home"} element={<Home />}></Route>
           )}
         </Routes>
       <Outlet />

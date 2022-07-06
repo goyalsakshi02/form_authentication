@@ -1,7 +1,7 @@
 {
   "name": "newlogin",
   "version": "0.1.0",
-  "homepage": "/form_authentication",
+  "homepage": "https://goyalsakshi02.github.io/form_authentication",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
